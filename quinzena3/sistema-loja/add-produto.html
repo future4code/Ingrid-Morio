@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adicionar Produto</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<header>
+
+    <div class="container-logo">
+        <div class="logo-imagem">
+            <img src="img\Logo certa.jpg" alt="Imagem unicórnio em cima do arco-íris, do lado esquedo um saco de confeiteiro verde com bolinhas rosas e do lado direito um fuê rosa com o cabo listrado em verde e rosa ">
+        </div>
+        <div class="logo-texto">
+            <h1><em>Padaria Sweet Dreams</em></h1>
+            <h3>Que seus sonhos sejam doces, como os nossos!</h3>
+        </div>
+    </div>
+
+    <div class="menu">
+        <ul>
+           <li><a href="index.html">Página Inicial</a></li> 
+           <li><a href="ctrl-estoque.html">Controle de Estoque</a></li> 
+           <li><a href="add-produto.html">Adicionar Produto</a></li> 
+           <li><a href="funcionarios.html">Funcionários</a></li> 
+                              
+        </ul>
+    </div>
+
+</header>
+
+    
+    <h2>Adicionar Produto</h2>
+    <form action="">
+        <div>
+            <label for="link-foto">Link para foto: </label>
+            <input type="url" id="link-foto" name="link-foto">
+        </div>
+        
+        <div>
+            <label for="descricao">Descrição do produto: </label>
+            <!-- Adicione o id apropriado para o input abaixo -->
+            <input type="text" id="descricao" name="descrição">
+        </div>
+        
+        <div>
+            <label for="preco">Preço (em R$): </label>
+            <!-- Adicione o id apropriado e o type para receber números abaixo -->
+            <input type="number" step="0.01" class="form-control" id="preco" name="preço">
+        </div>
+        
+        <div>
+            <!-- Preencha as propriedades necessárias para os elementos abaixo -->
+            <label for="quantidade">Quantidade disponível: </label>
+            <input type="number" id="quantidade" name="quantidade"></inputype>
+        </div>
+
+        <div class="form-add">
+            <!-- Adicione ao type do botão abaixo o valor para que ele submeta o formulário -->
+            <button type="submit">Adicionar</button>
+        </div>
+
+    </form>
+    
+    <footer>
+
+        <div class="rodape-contato">
+            <p>Contato: (65) 99235-4134</p>
+        </div>
+
+        <div class="rodape-desenvolvido">
+            <p> Desenvolvido por Ingrid Morio</p>            
+        </div>
+
+        <div class="rodape-redes-sociais">
+            <p>Siga-nos nas redes sociais!</p>
+               
+            <div class="imagem-rodape">
+                
+                <img src="https://image.flaticon.com/icons/png/512/25/25305.png"/>
+                <img src="https://image.flaticon.com/icons/png/512/25/25425.png"/>
+                <img src="https://image.flaticon.com/icons/png/512/8/8800.png"/>
+            </div>
+        </div>
+     
+
+    </footer>
+        <body background="img\fundo.jpg" bgproperties="fixed"></body>
+
+</body>
+</html>
